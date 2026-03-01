@@ -17,3 +17,11 @@ fi
 alias ll='ls -lha'
 alias gf='git fetch --prune'
 alias gp='git pull --rebase'
+
+# HOSTNAME='BatBookProM3'
+
+# PS1='\u@\h \w \$ '
+### PS1='\h:\W \u\$'
+
+export GPG_TTY=$(tty)
+# export PATH="$(brew --prefix)/opt/python@3.11/libexec/bin:$PATH"
