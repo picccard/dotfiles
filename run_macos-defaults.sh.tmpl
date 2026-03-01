@@ -6,6 +6,8 @@ defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool t
 defaults write com.apple.WindowManager EnableStandardClickToShowDesktop -bool false
 defaults write com.apple.dock tilesize -int 48
 defaults write com.apple.controlcenter "NSStatusItem Visible Battery" -int "1"
-defaults write ~/Library/Preferences/ByHost/com.apple.controlcenter.plist BatteryShowPercentage -bool true
+defaults -currentHost write com.apple.controlcenter.plist BatteryShowPercentage -bool true
+defaults write com.apple.controlcenter.plist "NSStatusItem Visible KeyboardBrightness" -bool false
+defaults -currentHost write com.apple.controlcenter KeyboardBrightness -int "1"
 
 {{ end -}}
