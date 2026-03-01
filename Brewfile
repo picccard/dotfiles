@@ -18,3 +18,11 @@ brew "pinentry-mac"
 # browser
 cask "firefox"
 cask "google-chrome"
+
+# password manager
+cask "bitwarden"
+brew "bitwarden-cli"
+
+# authenticator
+cask "ente-auth"
+brew "ente-cli"
