@@ -1,0 +1,5 @@
+{{- $githubNoreplyEmail := promptString "githubNoreplyEmail" -}}
+{{- $githubSigningkey := promptString "githubSigningkey" -}}
+[data]
+    githubNoreplyEmail = "{{ $githubNoreplyEmail }}"
+    githubSigningkey = "{{ $githubSigningkey }}"
