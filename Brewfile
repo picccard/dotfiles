@@ -27,3 +27,6 @@ brew "bitwarden-cli"
 # authenticator
 cask "ente-auth"
 brew "ente-cli"
+
+# battery charge limiter
+cask "aldente"
