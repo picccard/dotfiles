@@ -6,6 +6,7 @@ brew "wget"
 cask "powershell"
 tap "jandedobbeleer/oh-my-posh"
 brew "jandedobbeleer/oh-my-posh/oh-my-posh"
+cask "font-meslo-lg-nerd-font"
 
 # git
 brew "git"

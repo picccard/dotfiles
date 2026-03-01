@@ -1,0 +1,6 @@
+{{ if eq .chezmoi.os "darwin" -}}
+#!/bin/bash
+
+osascript -e 'tell application "Terminal" to set font of settings set "Basic" to "MesloLGM Nerd Font Mono"'
+
+{{ end -}}
