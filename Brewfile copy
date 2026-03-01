@@ -1,0 +1,67 @@
+
+
+
+
+
+# brew "pinentry"
+#brew "gpgme"
+
+
+tap "azure/bicep"
+brew "azure/bicep/bicep"
+
+tap "azure/kubelogin"
+brew "azure/kubelogin/kubelogin"
+
+
+
+
+
+# container image scan
+brew "dive"
+brew "skopeo"
+
+# container
+brew "podman"
+
+brew "azcopy"
+brew "azure-cli"
+brew "graphviz"
+brew "hugo"
+brew "kind"
+brew "kubernetes-cli"
+brew "kustomize"
+brew "openjdk"
+
+
+
+cask "displaylink"
+cask "microsoft-azure-storage-explorer"
+cask "ngrok"
+cask "podman-desktop"
+
+cask "windows-app"
+
+cask "visual-studio-code"
+vscode "eamodio.gitlens"
+vscode "github.copilot-chat"
+vscode "me-dutour-mathieu.vscode-github-actions"
+vscode "ms-azuretools.vscode-bicep"
+vscode "ms-dotnettools.vscode-dotnet-runtime"
+vscode "ms-python.autopep8"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
+vscode "ms-vscode.powershell"
+vscode "ms-vscode.vscode-speech"
+vscode "oracle.sql-developer"
+vscode "redhat.vscode-yaml"
+vscode "shd101wyy.markdown-preview-enhanced"
+vscode "usernamehw.errorlens"
+
+brew "mas"
+# mas 'AdGuard for Safari', id: 1440147259
+# mas 'Bitwarden', id: 1352778147
+# mas 'Momentum', id: 1564329434
+# mas 'Speed Player', id: 1521133201
