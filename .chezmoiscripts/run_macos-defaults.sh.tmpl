@@ -1,6 +1,7 @@
 {{ if eq .chezmoi.os "darwin" -}}
 #!/bin/bash
 
+defaults write com.apple.WindowManager EnableTiledWindowMargins -bool true
 defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
 defaults write com.apple.WindowManager EnableStandardClickToShowDesktop -bool false
