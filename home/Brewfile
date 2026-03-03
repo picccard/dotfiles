@@ -2,12 +2,6 @@
 brew "jq"
 brew "wget"
 
-# pwsh
-cask "powershell"
-tap "jandedobbeleer/oh-my-posh"
-brew "jandedobbeleer/oh-my-posh/oh-my-posh"
-cask "font-meslo-lg-nerd-font"
-
 # git
 brew "git"
 brew "gh"
@@ -15,6 +9,36 @@ brew "gh"
 # gpg
 brew "gnupg"
 brew "pinentry-mac"
+
+# pwsh
+cask "powershell"
+tap "jandedobbeleer/oh-my-posh"
+brew "jandedobbeleer/oh-my-posh/oh-my-posh"
+cask "font-meslo-lg-nerd-font"
+
+# azure
+tap "azure/bicep"
+brew "azure/bicep/bicep"
+tap "azure/kubelogin"
+brew "azure/kubelogin/kubelogin"
+brew "azure-cli"
+
+# terraform
+# brew tfenv
+
+# opentofu
+tap "tofuutils/tap"
+brew "tofuenv"
+# tofuenv list-remote
+# tofuenv install 1.11.5
+# tofuenv use 1.11.5
+# tofu -version
+
+# vscode
+cask "visual-studio-code"
+vscode "ms-azuretools.vscode-bicep"
+vscode "ms-vscode.powershell"
+vscode "usernamehw.errorlens"
 
 # browser
 cask "firefox"
@@ -28,5 +52,18 @@ brew "bitwarden-cli"
 cask "ente-auth"
 brew "ente-cli"
 
+# collaboration
+cask "slack"
+cask "microsoft-teams"
+
 # battery charge limiter
 cask "aldente"
+
+# video player
+cask "vlc"
+
+# remote desktop client
+cask "windows-app"
+
+# windows style alt tab
+cask "alt-tab"
