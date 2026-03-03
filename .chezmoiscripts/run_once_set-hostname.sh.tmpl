@@ -1,0 +1,9 @@
+{{ if eq .chezmoi.os "darwin" -}}
+#!/bin/bash
+
+sudo scutil --set ComputerName "{{ .desiredHostname }}"
+sudo scutil --set LocalHostName "{{ .desiredHostname }}"
+sudo scutil --set HostName "{{ .desiredHostname }}"
+dscacheutil -flushcache
+
+{{ end -}}
