@@ -67,3 +67,8 @@ cask "windows-app"
 
 # windows style alt tab
 cask "alt-tab"
+
+# office
+cask "microsoft-excel"
+cask "microsoft-powerpoint"
+cask "microsoft-word"
