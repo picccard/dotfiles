@@ -23,4 +23,10 @@ alias ll='ls -lha'
 alias gf='git fetch --prune'
 alias gp='git pull --rebase'
 
+alias k='kubectl'
+alias kctx='kubectx'
+alias kns='kubens'
+
+export DOCKER_HOST="unix://$(podman machine inspect podman-machine-default --format '{{ .ConnectionInfo.PodmanSocket.Path }}')"
+
 export BASH_SILENCE_DEPRECATION_WARNING=1

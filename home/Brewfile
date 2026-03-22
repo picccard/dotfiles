@@ -21,11 +21,26 @@ brew "jandedobbeleer/oh-my-posh/oh-my-posh"
 cask "font-meslo-lg-nerd-font"
 
 # azure
+brew "azure-cli"
 tap "azure/bicep"
 brew "azure/bicep/bicep"
+
+# containers locally
+brew "podman"
+cask "podman-desktop"
+tap "slp/krunkit"
+brew "krunkit"
+brew "kind"
+brew "cloud-provider-kind"
+
+# container tools
 tap "azure/kubelogin"
 brew "azure/kubelogin/kubelogin"
-brew "azure-cli"
+brew "skopeo"
+brew "kubectx"
+tap "fluxcd/tap"
+brew "flux"
+brew "controlplaneio-fluxcd/tap/flux-operator"
 
 # vscode
 cask "visual-studio-code"
