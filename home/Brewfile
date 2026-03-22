@@ -1,5 +1,6 @@
 # basics
-brew "jq"
+brew "jq" # json processor
+brew "yq" # yaml processor
 brew "bat" # cat clone
 brew "wget"
 brew "watch"
@@ -49,6 +50,8 @@ cask "visual-studio-code"
 vscode "ms-azuretools.vscode-bicep"
 vscode "ms-vscode.powershell"
 vscode "usernamehw.errorlens"
+vscode "tamasfe.even-better-toml"
+vscode "redhat.vscode-yaml"
 
 # browser
 cask "firefox"
