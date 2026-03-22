@@ -18,6 +18,7 @@ brew "pinentry-mac"
 
 # terminal
 brew "starship"
+cask "copilot-cli"
 
 # pwsh
 cask "powershell"
