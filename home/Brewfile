@@ -5,10 +5,12 @@ brew "bat" # cat clone
 brew "wget"
 brew "watch"
 brew "mise"
+brew "sops"
 
-# git
+# source control and ci
 brew "git"
 brew "gh"
+brew "act"
 
 # gpg
 brew "gnupg"
