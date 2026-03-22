@@ -65,3 +65,6 @@ cask "alt-tab"
 cask "microsoft-excel"
 cask "microsoft-powerpoint"
 cask "microsoft-word"
+
+# capture the flag
+cask "burp-suite"
