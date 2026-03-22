@@ -1,6 +1,8 @@
 # basics
 brew "jq"
+brew "bat" # cat clone
 brew "wget"
+brew "watch"
 brew "mise"
 
 # git
