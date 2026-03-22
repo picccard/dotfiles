@@ -1,0 +1,22 @@
+// Place your key bindings in this file to override the defaults
+[
+    // linux keybind for terminal in editor
+    { "key": "ctrl+cmd+t", "command": "workbench.action.createTerminalEditorSide", "when": "terminalProcessSupported" },
+    
+    // cmd+e toggle sidebar
+    { "key": "cmd+e", "command": "-actions.findWithSelection" },
+    { "key": "cmd+e", "command": "workbench.action.toggleSidebarVisibility" },
+//  { "key": "cmd+b", "command": "workbench.action.toggleSidebarVisibility" },
+
+    // shift+cmd+e view files
+    { "key": "shift+cmd+e", "command": "workbench.view.explorer" },
+ 
+    // shift+cmd+s search in files
+//  { "key": "shift+cmd+f", "command": "-workbench.view.search" },
+//  { "key": "shift+cmd+f", "command": "-workbench.action.findInFiles" },
+    { "key": "shift+cmd+s", "command": "-workbench.action.files.saveAs" },
+    { "key": "shift+cmd+s", "command": "workbench.view.search" },
+    
+    // shift+cmd+g git source control
+    { "key": "shift+cmd+g", "command": "workbench.view.scm" },
+]

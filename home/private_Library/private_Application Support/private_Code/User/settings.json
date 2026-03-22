@@ -1,0 +1,5 @@
+{
+    "git.autofetch": true,
+    "workbench.activityBar.location": "top",
+    "chat.viewSessions.orientation": "stacked"
+}
