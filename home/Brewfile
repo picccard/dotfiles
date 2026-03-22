@@ -1,6 +1,7 @@
 # basics
 brew "jq"
 brew "wget"
+brew "mise"
 
 # git
 brew "git"
@@ -25,17 +26,6 @@ brew "azure/bicep/bicep"
 tap "azure/kubelogin"
 brew "azure/kubelogin/kubelogin"
 brew "azure-cli"
-
-# terraform
-# brew tfenv
-
-# opentofu
-tap "tofuutils/tap"
-brew "tofuenv"
-# tofuenv list-remote
-# tofuenv install 1.11.5
-# tofuenv use 1.11.5
-# tofu -version
 
 # vscode
 cask "visual-studio-code"
