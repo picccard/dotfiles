@@ -10,6 +10,9 @@ brew "gh"
 brew "gnupg"
 brew "pinentry-mac"
 
+# terminal
+brew "starship"
+
 # pwsh
 cask "powershell"
 tap "jandedobbeleer/oh-my-posh"

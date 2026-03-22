@@ -1,5 +1,8 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+export STARSHIP_CONFIG=~/.config/starship/starship.toml
+eval "$(starship init bash)"
+
 if type brew &>/dev/null
 then
   HOMEBREW_PREFIX="$(brew --prefix)"

@@ -1,0 +1,30 @@
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = "$all"
+right_format = ""
+continuation_prompt = "[∙](bright-black) "
+scan_timeout = 30
+command_timeout = 1000
+add_newline = true
+follow_symlinks = true
+
+[directory]
+truncation_length = 5
+truncation_symbol = '…/'
+truncate_to_repo = false
+
+[directory.substitutions]
+'~/github/picccard' = 'gh-pic'
+'~/github/bi' = 'gh-bi'
+
+[kubernetes]
+symbol = '⛵ '
+#format = 'on [⛵ ($user on )($cluster in )$context \($namespace\)](dimmed green) '
+format = '[$symbol$context( \($namespace\))]($style) '
+disabled = false
+contexts = [
+  { context_pattern = 'kind-kind-cluster', style = 'dimmed green', context_alias='kind-cluster',  symbol = '☸️  ' },
+]
+# detect_env_vars = ['PROMPT_K8S']
+# detect_files = ['Dockerfile']
