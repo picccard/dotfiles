@@ -19,6 +19,8 @@
 	name = Eskil Uhlving Larsen
 	email = "{{ .githubNoreplyEmail }}"
 	signingkey = "{{ .githubSigningkey }}"
+[includeIf "gitdir:~/github/udi/"]
+  path = ~/github/udi/.gitconfig
 
 [credential "https://github.com"]
 	helper = !/opt/homebrew/bin/gh auth git-credential
