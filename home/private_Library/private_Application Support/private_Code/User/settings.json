@@ -1,5 +1,6 @@
 {
     "git.autofetch": true,
     "workbench.activityBar.location": "top",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
     "chat.viewSessions.orientation": "stacked"
 }
