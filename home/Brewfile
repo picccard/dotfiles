@@ -55,6 +55,8 @@ vscode "ms-vscode.powershell"
 vscode "usernamehw.errorlens"
 vscode "tamasfe.even-better-toml"
 vscode "redhat.vscode-yaml"
+vscode "hashicorp.terraform"
+vscode "ms-azuretools.vscode-azureterraform"
 
 # browser
 cask "firefox"
