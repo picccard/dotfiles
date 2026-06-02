@@ -73,6 +73,7 @@ brew "ente-cli"
 # collaboration
 cask "slack"
 cask "microsoft-teams"
+cask "excalidrawz"
 
 # battery charge limiter
 cask "aldente"
